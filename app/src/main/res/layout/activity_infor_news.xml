@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InforNewsActivity"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:padding="8dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgInfor"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+           <TextView
+               android:id="@+id/tenInfor"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="abd"
+               android:textStyle="bold"
+               android:textColor="#f00"
+               android:background="#6AA39898"
+               android:textSize="17dp"/>
+    </FrameLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/noidung1infor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="adskhnfds"
+                android:textColor="#f000"
+                android:textSize="15dp"/>
+            <ImageView
+                android:id="@+id/anh1Infor"
+                android:layout_gravity="center"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                />
+            <TextView
+                android:id="@+id/noidung2Infor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="abd"
+                android:textColor="#f000"
+                android:textSize="15dp"/>
+            <ImageView
+                android:id="@+id/anh2Infor"
+                android:layout_gravity="center"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                />
+            <ImageView
+                android:layout_margin="15dp"
+                android:id="@+id/anh3Infor"
+                android:layout_gravity="center"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                />
+            <TextView
+                android:id="@+id/noidung3Infor"
+                android:textColor="#f000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="abd"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
